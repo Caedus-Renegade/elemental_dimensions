@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ed",
+  "name": "Elemental Dimensions",
+  "description": "Enter the elemental planes and defeat the Elemental Lords to gain control of the elements.",
+  "version": "3.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Caedus_Renegade"],
+  "credits": "CJMinecraft & Harry's Tech Reveiws for tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
