@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "L"
+    ],
+    
+    "key":
+    {
+        "L":
+        {
+            "item": "ed:ash_log",
+            "data": 1
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:ash_planks",
+        "data": 1,
+        "count": 2
+    }
+} 

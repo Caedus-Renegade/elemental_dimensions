@@ -1,0 +1,143 @@
+container.alloyer=Alloyer
+tile.alloyer.name=Alloyer
+
+tile.tin_ore.name=Tin Ore
+item.tin_dust.name=Tin Dust
+
+tile.zinc_ore.name=Zinc Ore
+item.zinc_dust.name=Zinc Dust
+
+item.brass_dust.name=Brass Dust
+item.brass_ingot.name=Brass Ingot
+tile.brass_bricks.name=Brass Bricks
+tile.brass_block.name=Brass Block
+tile.brass_block_c.name=Condensed Brass Block
+tile.brass_block_sc.name=Super-Condensed Brass Block
+tile.brass_block_uc.name=Ultra-Condensed Brass Block
+item.brass_helmet.name=Brass Helmet
+item.brass_chestplate.name=Brass Chestplate
+item.brass_leggings.name=Brass Leggings
+item.brass_boots.name=Brass Boots
+item.brass_sword.name=Brass Sword
+item.brass_pickaxe.name=Brass Pickaxe
+item.brass_axe.name=Brass Axe
+item.brass_shovel.name=Brass Shovel
+item.brass_hoe.name=Brass Hoe
+
+tile.silver_ore.name=Silver Ore
+item.silver_dust.name=Silver Dust
+item.silver_ingot.name=Silver Ingot
+tile.silver_bricks.name=Silver Bricks
+tile.silver_block.name=Silver Block
+tile.silver_block_c.name=Condensed Silver Block
+tile.silver_block_sc.name=Super-Condensed Silver Block
+tile.silver_block_uc.name=Ultra-Condensed Silver Block
+item.silver_helmet.name=Silver Helmet
+item.silver_chestplate.name=Silver Chestplate
+item.silver_leggings.name=Silver Leggings
+item.silver_boots.name=Silver Boots
+item.silver_sword.name=Silver Sword
+item.silver_pickaxe.name=Silver Pickaxe
+item.silver_axe.name=Silver Axe
+item.silver_shovel.name=Silver Shovel
+item.silver_hoe.name=Silver Hoe
+
+item.gold_dust.name=Gold Dust
+tile.gold_bricks.name=Gold Bricks
+tile.gold_block_c.name=Condensed Gold Block
+tile.gold_block_sc.name=Super-Condensed Gold Block
+tile.gold_block_uc.name=Ultra-Condensed Gold Block
+
+item.electrum_dust.name=Electrum Dust
+item.electrum_ingot.name=Electrum Ingot
+tile.electrum_bricks.name=Electrum Bricks
+tile.electrum_block.name=Electrum Block
+tile.electrum_block_c.name=Condensed Electrum Block
+tile.electrum_block_sc.name=Super-Condensed Electrum Block
+tile.electrum_block_uc.name=Ultra-Condensed Electrum Block
+item.electrum_helmet.name=Electrum Helmet
+item.electrum_chestplate.name=Electrum Chestplate
+item.electrum_leggings.name=Electrum Leggings
+item.electrum_boots.name=Electrum Boots
+item.electrum_sword.name=Electrum Sword
+item.electrum_pickaxe.name=Electrum Pickaxe
+item.electrum_axe.name=Electrum Axe
+item.electrum_shovel.name=Electrum Shovel
+item.electrum_hoe.name=Electrum Hoe
+
+tile.copper_ore.name=Copper Ore
+tile.copper_ore_nether.name=Copper Ore
+tile.copper_ore_end.name=Copper Ore
+item.copper_dust.name=Copper Dust
+item.copper_ingot.name=Copper Ingot
+item.copper_rod.name=Copper Rod
+item.copper_plate.name=Copper Plate
+tile.copper_bricks.name=Copper Bricks
+tile.copper_block.name=Copper Block
+item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Chestplate
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
+item.copper_sword.name=Copper Sword
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
+item.copper_shovel.name=Copper Shovel
+item.copper_hoe.name=Copper Hoe
+
+tile.ignatius_ore.name=Ignatius Ore
+item.ignatius_dust.name=Ignatius Dust
+item.ignatius_ingot.name=Ignatius Ingot
+tile.ignatius_bricks.name=Ignatius Bricks
+tile.ignatius_block.name=Ignatius Block
+item.ignatius_helmet.name=Ignatius Helmet
+item.ignatius_chestplate.name=Ignatius Chestplate
+item.ignatius_leggings.name=Ignatius Leggings
+item.ignatius_boots.name=Ignatius Boots
+item.ignatius_sword.name=Ignatius Sword
+item.ignatius_pickaxe.name=Ignatius Pickaxe
+item.ignatius_axe.name=Ignatius Axe
+item.ignatius_shovel.name=Ignatius Shovel
+item.ignatius_hoe.name=Ignatius Hoe
+
+item.bronze_dust.name=Bronze Dust
+item.bronze_ingot.name=Bronze Ingot
+item.bronze_rod.name=Bronze Rod
+item.bronze_plate.name=Bronze Plate
+tile.bronze_bricks.name=Bronze Bricks
+tile.bronze_block.name=Bronze Block
+item.bronze_helmet.name=Bronze Helmet
+item.bronze_chestplate.name=Bronze Chestplate
+item.bronze_leggings.name=Bronze Leggings
+item.bronze_boots.name=Bronze Boots
+item.bronze_sword.name=Bronze Sword
+item.bronze_pickaxe.name=Bronze Pickaxe
+item.bronze_axe.name=Bronze Axe
+item.bronze_shovel.name=Bronze Shovel
+item.bronze_hoe.name=Bronze Hoe
+
+tile.elementium_ore.name=Elementium Ore
+
+tile.ash_log_normal.name=Ash Log
+tile.ash_planks_normal.name=Ash Planks
+tile.ash_leaves_normal.name=Ash Leaves
+tile.ash_sapling_normal.name=Ash Sapling
+tile.ash_log_hailstorm.name=Hailstorm Ash Log
+tile.ash_planks_hailstorm.name=Hailstorm Ash Planks
+tile.ash_leaves_hailstorm.name=Hailstorm Ash Leaves
+tile.ash_sapling_hailstorm.name=Hailstorm Ash Sapling
+
+tile.skyridge_soil.name=Skyridge Soil
+tile.zephyrstone.name=Zephyrstone
+
+tile.ebony_log_normal.name=Myrtle Ebony Log
+tile.ebony_planks_normal.name=Myrtle Ebony Planks
+tile.ebony_leaves_normal.name=Myrtle Ebony Leaves
+tile.ebony_sapling_normal.name=Myrtle Ebony Sapling
+tile.ebony_log_skyridge.name=Skyridge Ebony Log
+tile.ebony_planks_skyridge.name=Skyridge Ebony Planks
+tile.ebony_leaves_skyridge.name=Skyridge Ebony Leaves
+tile.ebony_sapling_skyridge.name=Skyridge Ebony Sapling
+
+entity.skyridge_wolf.name=Skyridge Wolf
+
+tile.zephyrite_ore.name=Zephyrite Ore

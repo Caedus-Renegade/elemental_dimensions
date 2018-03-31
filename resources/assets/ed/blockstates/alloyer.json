@@ -1,0 +1,14 @@
+{
+    "variants":
+    {
+        "burning=false, facing=north": { "model": "ed:alloyer" },
+        "burning=false, facing=east": { "model": "ed:alloyer", "y": 90 },
+        "burning=false, facing=south": { "model": "ed:alloyer", "y": 180 },
+        "burning=false, facing=west": { "model": "ed:alloyer", "y": 270 },
+        "burning=true, facing=north": { "model": "ed:alloyer_lit" },
+        "burning=true, facing=east": { "model": "ed:alloyer_lit", "y": 90 },
+        "burning=true, facing=south": { "model": "ed:alloyer_lit", "y": 180 },
+        "burning=true, facing=west": { "model": "ed:alloyer_lit", "y": 270 }
+        
+    }
+}
