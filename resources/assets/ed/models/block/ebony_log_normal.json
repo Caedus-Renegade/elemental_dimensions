@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "ed:blocks/ebony_log_normal_top",
+        "side": "ed:blocks/ebony_log_normal"
+    }
+}

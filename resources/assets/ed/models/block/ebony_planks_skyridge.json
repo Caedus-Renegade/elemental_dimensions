@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "ed:blocks/ebony_planks_skyridge"
+    }
+}

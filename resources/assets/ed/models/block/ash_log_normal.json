@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "ed:blocks/ash_log_normal_top",
+        "side": "ed:blocks/ash_log_normal"
+    }
+}

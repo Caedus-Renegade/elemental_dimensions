@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "ed:blocks/ebony_log_skyridge_top",
+        "side": "ed:blocks/ebony_log_skyridge"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "ed:blocks/ebony_leaves_skyridge"
+    }
+}

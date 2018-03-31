@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "ed:blocks/ebony_sapling_skyridge"
+    }
+}
