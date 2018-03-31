@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "stage=0,variant=normal": { "model": "ed:ash_sapling_normal" },
+        "stage=1,variant=normal": { "model": "ed:ash_sapling_normal" },
+        
+        "stage=0,variant=hailstorm": { "model": "ed:ash_sapling_hailstorm" },
+        "stage=1,variant=hailstorm": { "model": "ed:ash_sapling_hailstorm" }
+    }
+}

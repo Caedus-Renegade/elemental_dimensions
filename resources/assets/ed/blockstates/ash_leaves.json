@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "check_decay=true,decayable=true,variant=normal": { "model": "ed:ash_leaves_normal" },
+        "check_decay=true,decayable=false,variant=normal": { "model": "ed:ash_leaves_normal" },
+        "check_decay=false,decayable=true,variant=normal": { "model": "ed:ash_leaves_normal" },
+        "check_decay=false,decayable=false,variant=normal": { "model": "ed:ash_leaves_normal" },
+        
+        "check_decay=true,decayable=true,variant=hailstorm": { "model": "ed:ash_leaves_hailstorm" },
+        "check_decay=true,decayable=false,variant=hailstorm": { "model": "ed:ash_leaves_hailstorm" },
+        "check_decay=false,decayable=true,variant=hailstorm": { "model": "ed:ash_leaves_hailstorm" },
+        "check_decay=false,decayable=false,variant=hailstorm": { "model": "ed:ash_leaves_hailstorm" }
+    }
+}

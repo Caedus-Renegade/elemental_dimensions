@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=y,variant=normal": { "model": "ed:ebony_log_normal" },
+        "axis=z,variant=normal": { "model": "ed:ebony_log_normal", "x": 90 },
+        "axis=x,variant=normal": { "model": "ed:ebony_log_normal", "x": 90, "y": 90 },
+        "axis=none,variant=normal": { "model": "ed:ebony_log_normal" },
+        
+        "axis=y,variant=skyridge": { "model": "ed:ebony_log_skyridge" },
+        "axis=z,variant=skyridge": { "model": "ed:ebony_log_skyridge", "x": 90 },
+        "axis=x,variant=skyridge": { "model": "ed:ebony_log_skyridge", "x": 90, "y": 90 },
+        "axis=none,variant=skyridge": { "model": "ed:ebony_log_skyridge" }
+    }
+}

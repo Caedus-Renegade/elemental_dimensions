@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "stage=0,variant=normal": { "model": "ed:ebony_sapling_normal" },
+        "stage=1,variant=normal": { "model": "ed:ebony_sapling_normal" },
+        
+        "stage=0,variant=skyridge": { "model": "ed:ebony_sapling_skyridge" },
+        "stage=1,variant=skyridge": { "model": "ed:ebony_sapling_skyridge" }
+    }
+}

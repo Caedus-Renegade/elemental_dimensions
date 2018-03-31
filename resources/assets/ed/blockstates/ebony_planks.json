@@ -1,0 +1,7 @@
+{
+    "variants": 
+    {
+        "variant=normal": { "model": "ed:ebony_planks_normal" },
+        "variant=skyridge": { "model": "ed:ebony_planks_skyridge" }
+    }
+}

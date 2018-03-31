@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=y,variant=normal": { "model": "ed:ash_log_normal" },
+        "axis=z,variant=normal": { "model": "ed:ash_log_normal", "x": 90 },
+        "axis=x,variant=normal": { "model": "ed:ash_log_normal", "x": 90, "y": 90 },
+        "axis=none,variant=normal": { "model": "ed:ash_log_normal" },
+        
+        "axis=y,variant=hailstorm": { "model": "ed:ash_log_hailstorm" },
+        "axis=z,variant=hailstorm": { "model": "ed:ash_log_hailstorm", "x": 90 },
+        "axis=x,variant=hailstorm": { "model": "ed:ash_log_hailstorm", "x": 90, "y": 90 },
+        "axis=none,variant=hailstorm": { "model": "ed:ash_log_hailstorm" }
+    }
+}

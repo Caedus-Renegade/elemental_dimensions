@@ -1,0 +1,7 @@
+{
+    "variants": 
+    {
+        "variant=normal": { "model": "ed:ash_planks_normal" },
+        "variant=hailstorm": { "model": "ed:ash_planks_hailstorm" }
+    }
+}

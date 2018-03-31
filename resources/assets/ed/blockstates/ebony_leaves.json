@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "check_decay=true,decayable=true,variant=normal": { "model": "ed:ebony_leaves_normal" },
+        "check_decay=true,decayable=false,variant=normal": { "model": "ed:ebony_leaves_normal" },
+        "check_decay=false,decayable=true,variant=normal": { "model": "ed:ebony_leaves_normal" },
+        "check_decay=false,decayable=false,variant=normal": { "model": "ed:ebony_leaves_normal" },
+        
+        "check_decay=true,decayable=true,variant=skyridge": { "model": "ed:ebony_leaves_skyridge" },
+        "check_decay=true,decayable=false,variant=skyridge": { "model": "ed:ebony_leaves_skyridge" },
+        "check_decay=false,decayable=true,variant=skyridge": { "model": "ed:ebony_leaves_skyridge" },
+        "check_decay=false,decayable=false,variant=skyridge": { "model": "ed:ebony_leaves_skyridge" }
+    }
+}
