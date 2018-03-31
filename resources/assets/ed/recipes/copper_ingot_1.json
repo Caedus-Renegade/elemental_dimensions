@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:copper_bricks"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:copper_ingot"
+    }
+}

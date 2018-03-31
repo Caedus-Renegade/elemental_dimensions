@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "O"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "ed:copper_ore_nether"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:copper_dust",
+        "count": 4
+    }
+} 

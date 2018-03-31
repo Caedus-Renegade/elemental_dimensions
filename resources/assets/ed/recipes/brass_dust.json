@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C",
+        "Z"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "ed:copper_dust"
+        },
+        "Z":
+        {
+            "item": "ed:zinc_dust"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:brass_dust",
+        "count": 2
+    }
+}

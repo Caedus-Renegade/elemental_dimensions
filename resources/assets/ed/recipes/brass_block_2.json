@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:brass_block_c"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:brass_block",
+        "count": 9
+    }
+}

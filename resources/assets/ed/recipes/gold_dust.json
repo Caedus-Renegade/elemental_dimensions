@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "O"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "minecraft:gold_ore"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:gold_dust",
+        "count": 4
+    }
+} 

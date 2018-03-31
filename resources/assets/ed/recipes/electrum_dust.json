@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C",
+        "Z"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "ed:gold_dust"
+        },
+        "Z":
+        {
+            "item": "ed:silver_dust"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:electrum_dust",
+        "count": 2
+    }
+}

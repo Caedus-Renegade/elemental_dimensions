@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:gold_block_uc"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:gold_block_sc",
+        "count": 9
+    }
+}

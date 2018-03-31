@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "L"
+    ],
+    
+    "key":
+    {
+        "L":
+        {
+            "item": "ed:ebony_log",
+            "data": 1
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:ebony_planks",
+        "data": 1,
+        "count": 2
+    }
+} 

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C",
+        "T"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "ed:copper_dust"
+        },
+        "T":
+        {
+            "item": "ed:tin_dust"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:bronze_dust",
+        "count": 2
+    }
+}

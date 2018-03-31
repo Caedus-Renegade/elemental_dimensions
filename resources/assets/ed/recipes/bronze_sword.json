@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "I",
+        "I",
+        "R"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "ed:bronze_ingot"
+        },
+        "R":
+        {
+            "item": "ed:bronze_rod"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:bronze_sword"
+    }
+}

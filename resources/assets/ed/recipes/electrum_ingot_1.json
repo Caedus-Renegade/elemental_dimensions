@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:electrum_bricks"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:electrum_ingot"
+    }
+}

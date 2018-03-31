@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:electrum_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:electrum_block_c"
+    }
+}

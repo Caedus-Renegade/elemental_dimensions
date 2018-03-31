@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:gold_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:gold_block_c"
+    }
+}

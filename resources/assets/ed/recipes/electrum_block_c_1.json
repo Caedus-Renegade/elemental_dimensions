@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:electrum_block_sc"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:electrum_block_c",
+        "count": 9
+    }
+}

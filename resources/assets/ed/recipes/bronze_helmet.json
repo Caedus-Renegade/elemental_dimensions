@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "I I"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "ed:bronze_ingot"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:bronze_helmet"
+    }
+}
