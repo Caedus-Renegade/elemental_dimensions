@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:silver_block_c"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:silver_block",
+        "count": 9
+    }
+}

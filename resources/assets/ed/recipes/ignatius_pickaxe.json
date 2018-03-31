@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        " R ",
+        " R "
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "ed:ignatius_ingot"
+        },
+        "R":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:ignatius_pickaxe"
+    }
+}

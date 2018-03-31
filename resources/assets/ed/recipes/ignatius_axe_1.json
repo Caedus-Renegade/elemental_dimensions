@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "II",
+        "RI",
+        "R "
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "ed:copper_ingot"
+        },
+        "R":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:copper_axe"
+    }
+}

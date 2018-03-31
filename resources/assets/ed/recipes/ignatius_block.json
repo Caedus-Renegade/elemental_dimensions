@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "III",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "ed:ignatius_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:ignatius_block"
+    }
+}

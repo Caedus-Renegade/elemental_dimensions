@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "O"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "ed:ignatius_ore"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:ignatius_dust",
+        "count": 4
+    }
+} 

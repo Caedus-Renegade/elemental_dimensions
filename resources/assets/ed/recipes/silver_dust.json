@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "O"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "ed:silver_ore"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:silver_dust",
+        "count": 4
+    }
+} 

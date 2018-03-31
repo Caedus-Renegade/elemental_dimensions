@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:silver_bricks"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:silver_ingot"
+    }
+}

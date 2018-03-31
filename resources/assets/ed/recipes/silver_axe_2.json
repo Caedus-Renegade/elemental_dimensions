@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "II",
+        "IS",
+        " S"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "ed:silver_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "ed:silver_axe"
+    }
+}

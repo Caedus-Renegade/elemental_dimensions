@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "O"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "ed:zinc_ore"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:zinc_dust",
+        "count": 4
+    }
+} 

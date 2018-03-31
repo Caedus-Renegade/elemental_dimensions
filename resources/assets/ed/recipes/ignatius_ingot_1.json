@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ed:ignatius_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ed:ignatius_ingot",
+        "count": 9
+    }
+}
