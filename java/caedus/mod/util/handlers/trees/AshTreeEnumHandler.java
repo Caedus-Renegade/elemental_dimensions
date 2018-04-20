@@ -6,8 +6,7 @@ public class AshTreeEnumHandler
 {
 	public static enum EnumType implements IStringSerializable
 	{
-		ASH(0, "normal"),
-		HAILSTORM(1, "hailstorm");
+		ASH(0, "normal");
 		
 		private static final EnumType[] META_LOOKUP = new EnumType[values().length];
 		private final int meta;
