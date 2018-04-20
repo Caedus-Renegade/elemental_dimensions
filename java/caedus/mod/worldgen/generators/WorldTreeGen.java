@@ -4,11 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-import caedus.mod.worldgen.AshTree;
-import caedus.mod.worldgen.HailstormAshTree;
-import caedus.mod.worldgen.MyrtleEbonyTree;
-import caedus.mod.worldgen.SkyridgeEbonyTree;
 import caedus.mod.worldgen.biomes.SkyridgeHighlands;
+import caedus.mod.worldgen.trees.AshTree;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeForest;
@@ -22,9 +19,9 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class WorldTreeGen implements IWorldGenerator
 {
 	private final WorldGenerator ASH = new AshTree();
-	private final WorldGenerator HAILSTORM = new HailstormAshTree();
-	private final WorldGenerator EBONY = new MyrtleEbonyTree();
-	private final WorldGenerator SKYRIDGE = new SkyridgeEbonyTree();
+//	private final WorldGenerator HAILSTORM = new HailstormAshTree();
+//	private final WorldGenerator EBONY = new MyrtleEbonyTree();
+//	private final WorldGenerator SKYRIDGE = new SkyridgeEbonyTree();
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) 
@@ -37,7 +34,7 @@ public class WorldTreeGen implements IWorldGenerator
 			
 		case 0:
 			
-//			runGenerator(ASH, world, random, chunkX, chunkZ, 3, -1, 0, BiomePlains.class);
+			runGenerator(ASH, world, random, chunkX, chunkZ, 3, -1, 0, BiomePlains.class);
 //			runGenerator(HAILSTORM, world, random, chunkX, chunkZ, 3, -1, 0, BiomePlains.class);
 //			runGenerator(EBONY, world, random, chunkX, chunkZ, 3, -1, 0, BiomePlains.class);
 //			runGenerator(SKYRIDGE, world, random, chunkX, chunkZ, 3, -1, 0, BiomePlains.class, SkyridgeHighlands.class);
