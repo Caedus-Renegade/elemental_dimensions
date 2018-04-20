@@ -28,7 +28,7 @@ public class AshLog extends BlockLog implements IMetaName, IHasModel
 	{
 		public boolean apply(@Nullable AshTreeEnumHandler.EnumType apply)
 		{
-			return apply.getMeta() < 2;
+			return apply.getMeta() < 1;
 		}
 	});
 	
@@ -38,9 +38,6 @@ public class AshLog extends BlockLog implements IMetaName, IHasModel
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(5);
-		setResistance(5);
-		setHarvestLevel("axe", 3);
 		setSoundType(SoundType.WOOD);
 		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.ASH).withProperty(LOG_AXIS, EnumAxis.Y));
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
@@ -63,19 +60,19 @@ public class AshLog extends BlockLog implements IMetaName, IHasModel
 	@Override
 	public IBlockState getStateFromMeta(int meta) 
 	{
-		IBlockState state = this.getDefaultState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.byMetadata((meta & 1) % 2));
+		IBlockState state = this.getDefaultState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.byMetadata((meta & 1) % 1));
 		
-		switch(meta & 6)
+		switch(meta & 3)
 		{
 		case 0:
 			state = state.withProperty(LOG_AXIS, EnumAxis.Y);
 			break;
 			
-		case 2:
+		case 1:
 			state = state.withProperty(LOG_AXIS, EnumAxis.X);
 			break;
 			
-		case 4:
+		case 2:
 			state = state.withProperty(LOG_AXIS, EnumAxis.Z);
 			break;
 			
@@ -96,15 +93,15 @@ public class AshLog extends BlockLog implements IMetaName, IHasModel
 		switch((BlockLog.EnumAxis)state.getValue(LOG_AXIS))
 		{
 		case X:
-			i |= 2;
+			i |= 1;
 			break;
 			
 		case Y:
-			i |= 4;
+			i |= 2;
 			break;
 			
 		case Z:
-			i |= 6;
+			i |= 3;
 		}
 		
 		return i;
@@ -139,7 +136,7 @@ public class AshLog extends BlockLog implements IMetaName, IHasModel
 	{
 		for(int i = 0; i < AshTreeEnumHandler.EnumType.values().length; i++)
 		{
-			Main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, "ash_log" + "_" + AshTreeEnumHandler.EnumType.values()[i].getName(), "inventory");
+			Main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, "ash_log_" + AshTreeEnumHandler.EnumType.values()[i].getName(), "inventory");
 		}
 	}	
 }

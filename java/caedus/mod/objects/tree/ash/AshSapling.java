@@ -13,8 +13,7 @@ import caedus.mod.util.ItemBlockVariants;
 import caedus.mod.util.handlers.trees.AshTreeEnumHandler;
 import caedus.mod.util.interfaces.IHasModel;
 import caedus.mod.util.interfaces.IMetaName;
-import caedus.mod.worldgen.AshTree;
-import caedus.mod.worldgen.HailstormAshTree;
+import caedus.mod.worldgen.trees.AshTree;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;
@@ -46,7 +45,7 @@ public class AshSapling extends BlockBush implements IGrowable, IMetaName, IHasM
 	{
 		public boolean apply(@Nullable AshTreeEnumHandler.EnumType apply)
 		{
-			return apply.getMeta() < 2;
+			return apply.getMeta() < 1;
 		}
 	});
     
@@ -56,8 +55,6 @@ public class AshSapling extends BlockBush implements IGrowable, IMetaName, IHasM
     {
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(1);
-		setResistance(5);
 		setSoundType(SoundType.PLANT);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.ASH).withProperty(STAGE, Integer.valueOf(0)));
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
@@ -148,6 +145,7 @@ public class AshSapling extends BlockBush implements IGrowable, IMetaName, IHasM
 	//Tree Code
 	
 	
+	
 	@Override
 	public void grow(World worldIn, Random rand, BlockPos pos, IBlockState state) 
 	{
@@ -172,9 +170,6 @@ public class AshSapling extends BlockBush implements IGrowable, IMetaName, IHasM
 		{
 		case ASH:
 			gen = new AshTree();
-			break;
-		case HAILSTORM:
-			gen = new HailstormAshTree();
 			break;
 		}
 		
@@ -214,6 +209,19 @@ public class AshSapling extends BlockBush implements IGrowable, IMetaName, IHasM
 	}
 	
 	@Override
+	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) 
+	{
+		if(!worldIn.isRemote)
+		{
+			super.updateTick(worldIn, pos, state, rand);
+			if(worldIn.getLightFromNeighbors(pos.up())>= 9 && rand.nextInt(7)==0)
+			{
+				this.grow(worldIn, rand, pos, state);
+			}
+		}
+	}
+	
+	@Override
 	public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state) 
 	{
 		return (double)worldIn.rand.nextFloat() < 0.45D;
@@ -224,4 +232,5 @@ public class AshSapling extends BlockBush implements IGrowable, IMetaName, IHasM
 	{
 		return state.getBlock() == Blocks.GRASS || state.getBlock() == Blocks.DIRT || state.getBlock() == Blocks.FARMLAND;
 	}
+
 }

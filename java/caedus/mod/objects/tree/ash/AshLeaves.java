@@ -36,7 +36,7 @@ public class AshLeaves extends BlockLeaves implements IMetaName, IHasModel
 	{
 		public boolean apply(@Nullable AshTreeEnumHandler.EnumType apply)
 		{
-			return apply.getMeta() < 2;
+			return apply.getMeta() < 1;
 		}
 	});
 	
@@ -46,8 +46,6 @@ public class AshLeaves extends BlockLeaves implements IMetaName, IHasModel
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(1);
-		setResistance(5);
 		setSoundType(SoundType.PLANT);
 		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.ASH).withProperty(CHECK_DECAY, Boolean.valueOf(true)).withProperty(DECAYABLE, Boolean.valueOf(true)));
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
@@ -61,7 +59,13 @@ public class AshLeaves extends BlockLeaves implements IMetaName, IHasModel
 	@Override
 	public IBlockState getStateFromMeta(int meta)
 	{
-		return this.getDefaultState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.byMetadata(meta % 2));
+		return this.getDefaultState().withProperty(VARIANT, AshTreeEnumHandler.EnumType.byMetadata(meta % 1));
+	}
+	
+	@Override
+	public Item getItemDropped(IBlockState state, Random rand, int fortune) 
+	{
+		return Item.getItemFromBlock(BlockInit.ash_sapling);
 	}
 	
 	@Override
@@ -71,12 +75,12 @@ public class AshLeaves extends BlockLeaves implements IMetaName, IHasModel
 		
 		if(!((Boolean)state.getValue(DECAYABLE)).booleanValue())
 		{
-			i |= 2;
+			i |= 1;
 		}
 		
 		if(!((Boolean)state.getValue(CHECK_DECAY)).booleanValue())
 		{
-			i |= 4;
+			i |= 2;
 		}
 		
 		return i;
@@ -113,7 +117,7 @@ public class AshLeaves extends BlockLeaves implements IMetaName, IHasModel
 	protected void dropApple(World worldIn, BlockPos pos, IBlockState state, int chance) {return;}
 	
 	@Override
-	protected int getSaplingDropChance(IBlockState state) {return 30;}
+	protected int getSaplingDropChance(IBlockState state) {return 20;}
 	
 	@Override
 	public EnumType getWoodType(int meta) {return null;}
