@@ -17,9 +17,9 @@ public class Zephyrstone extends Block implements IHasModel
 		super(Material.ROCK);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(5);
-		setResistance(10);
-		setHarvestLevel("pickaxe", 2);
+		setHardness(8);
+		setResistance(8);
+		setHarvestLevel("pickaxe", 3);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

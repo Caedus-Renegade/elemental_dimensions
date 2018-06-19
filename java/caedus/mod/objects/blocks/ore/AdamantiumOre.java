@@ -10,11 +10,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class ElementiumOre extends Block implements IHasModel 
+public class AdamantiumOre extends Block implements IHasModel 
 {
-	public ElementiumOre(String name)
+	public AdamantiumOre(String name)
 	{
-		super(Material.ROCK);
+		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setHardness(6);

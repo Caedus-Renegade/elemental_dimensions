@@ -10,16 +10,16 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class ElementiumOre extends Block implements IHasModel 
+public class SanguiniteOre extends Block implements IHasModel 
 {
-	public ElementiumOre(String name)
+	public SanguiniteOre(String name)
 	{
 		super(Material.ROCK);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(6);
-		setResistance(6);
-		setHarvestLevel("pickaxe", 5);
+		setHardness(7);
+		setResistance(7);
+		setHarvestLevel("pickaxe", 6);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

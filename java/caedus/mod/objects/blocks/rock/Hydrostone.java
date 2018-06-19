@@ -1,4 +1,4 @@
-package caedus.mod.objects.blocks.ore;
+package caedus.mod.objects.blocks.rock;
 
 import caedus.mod.Main;
 import caedus.mod.init.BlockInit;
@@ -10,16 +10,16 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class ElementiumOre extends Block implements IHasModel 
+public class Hydrostone extends Block implements IHasModel 
 {
-	public ElementiumOre(String name)
+	public Hydrostone(String name)
 	{
 		super(Material.ROCK);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(6);
-		setResistance(6);
-		setHarvestLevel("pickaxe", 5);
+		setHardness(8);
+		setResistance(8);
+		setHarvestLevel("pickaxe", 3);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);
