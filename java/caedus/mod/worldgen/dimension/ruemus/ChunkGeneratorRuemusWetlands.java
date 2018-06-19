@@ -1,4 +1,4 @@
-package caedus.mod.worldgen.dimension.skyridge;
+package caedus.mod.worldgen.dimension.ruemus;
 
 import java.util.List;
 import java.util.Random;
@@ -37,18 +37,18 @@ import net.minecraftforge.event.terraingen.PopulateChunkEvent;
 import net.minecraftforge.event.terraingen.TerrainGen;
 import net.minecraftforge.fml.common.eventhandler.Event;
 
-public class ChunkGeneratorSkyridge implements IChunkGenerator
+public class ChunkGeneratorRuemusWetlands implements IChunkGenerator
 {
     protected static final IBlockState AIR = Blocks.AIR.getDefaultState();
     protected static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();
     
     //Block that is usually Netherrack
-    protected static final IBlockState MAIN_BLOCK = BlockInit.zephyrstone.getDefaultState();
+    protected static final IBlockState MAIN_BLOCK = BlockInit.hydrostone.getDefaultState();
     //Block that is usally Lava
     protected static final IBlockState YOUR_LIQUID = Blocks.WATER.getDefaultState();
     //Blocks that are usally gravel and soul sand
-    protected static final IBlockState OTHER_BLOCK1 = Blocks.EMERALD_ORE.getDefaultState();
-    protected static final IBlockState OTHER_BLOCK2 = BlockInit.zephyrite_ore.getDefaultState();
+    protected static final IBlockState OTHER_BLOCK1 = BlockInit.sapphire_ore.getDefaultState();
+    protected static final IBlockState OTHER_BLOCK2 = BlockInit.hydrolite_ore.getDefaultState();
     
     private final World world;
     private final boolean generateStructures;
@@ -68,13 +68,11 @@ public class ChunkGeneratorSkyridge implements IChunkGenerator
     private final WorldGenBush redMushroomFeature = new WorldGenBush(Blocks.RED_MUSHROOM);
     private MapGenNetherBridge genNetherBridge = new MapGenNetherBridge();
     */
-//  private final WorldGenerator ElementiumGen = new WorldGenMinable(BlockInit.elementium_ore.getDefaultState(), 14, BlockMatcher.forBlock(BlockInit.zephyrstone));
-//  private final WorldGenerator ZephyriteGen = new WorldGenMinable(BlockInit.zephyrite_ore.getDefaultState(), 14, BlockMatcher.forBlock(BlockInit.zephyrstone));
 //  private final WorldGenStructure HOUSE = new WorldGenStructure("House");
     private MapGenBase genNetherCaves = new MapGenCavesHell();
-    private final WorldGenHellLava hellSpringGen = new WorldGenHellLava(Blocks.FLOWING_WATER, true);
+    private final WorldGenHellLava hellSpringGen = new WorldGenHellLava(Blocks.WATER, true);
 
-    public ChunkGeneratorSkyridge(World world, boolean generate, long seed)
+    public ChunkGeneratorRuemusWetlands(World world, boolean generate, long seed)
     {
         this.world = world;
         this.generateStructures = generate;
@@ -286,7 +284,7 @@ public class ChunkGeneratorSkyridge implements IChunkGenerator
 
         for (int i = 0; i < abyte.length; ++i)
         {
-            abyte[i] = (byte)Biome.getIdForBiome(BiomeInit.SKYRIDGE_HIGHLANDS);
+            abyte[i] = (byte)Biome.getIdForBiome(BiomeInit.ruemus_wetlands);
         }
 
         chunk.resetRelightChecks();
