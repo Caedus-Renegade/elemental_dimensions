@@ -18,7 +18,7 @@ public class SilverBlock extends Block implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setHardness(4);
-		setResistance(2);
+		setResistance(4);
 		setHarvestLevel("pickaxe", 1);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		

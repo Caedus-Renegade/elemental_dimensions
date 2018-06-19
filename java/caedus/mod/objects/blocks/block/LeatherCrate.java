@@ -5,21 +5,22 @@ import caedus.mod.init.BlockInit;
 import caedus.mod.init.ItemInit;
 import caedus.mod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BronzeBlock extends Block implements IHasModel 
+public class LeatherCrate extends Block implements IHasModel 
 {
-	public BronzeBlock(String name)
+	public LeatherCrate(String name)
 	{
-		super(Material.IRON);
+		super(Material.WOOD);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(6);
-		setResistance(6);
-		setHarvestLevel("pickaxe", 2);
+		setHardness(2);
+		setResistance(2);
+		setSoundType(SoundType.WOOD);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

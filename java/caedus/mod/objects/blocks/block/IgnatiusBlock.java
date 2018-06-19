@@ -14,11 +14,11 @@ public class IgnatiusBlock extends Block implements IHasModel
 {
 	public IgnatiusBlock(String name)
 	{
-		super(Material.ROCK);
+		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setHardness(4);
-		setResistance(2);
+		setResistance(4);
 		setHarvestLevel("pickaxe", 1);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		

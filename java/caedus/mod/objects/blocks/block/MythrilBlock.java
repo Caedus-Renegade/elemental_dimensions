@@ -10,16 +10,16 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BronzeBlock extends Block implements IHasModel 
+public class MythrilBlock extends Block implements IHasModel 
 {
-	public BronzeBlock(String name)
+	public MythrilBlock(String name)
 	{
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(6);
-		setResistance(6);
-		setHarvestLevel("pickaxe", 2);
+		setHardness(10);
+		setResistance(10);
+		setHarvestLevel("pickaxe", 4);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

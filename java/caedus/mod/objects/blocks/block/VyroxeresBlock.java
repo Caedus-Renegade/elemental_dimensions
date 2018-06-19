@@ -10,16 +10,16 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BronzeBlock extends Block implements IHasModel 
+public class VyroxeresBlock extends Block implements IHasModel 
 {
-	public BronzeBlock(String name)
+	public VyroxeresBlock(String name)
 	{
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(6);
-		setResistance(6);
-		setHarvestLevel("pickaxe", 2);
+		setHardness(8);
+		setResistance(8);
+		setHarvestLevel("pickaxe", 3);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

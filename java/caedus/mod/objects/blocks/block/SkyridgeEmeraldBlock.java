@@ -10,16 +10,17 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BronzeBlock extends Block implements IHasModel 
+public class SkyridgeEmeraldBlock extends Block implements IHasModel 
 {
-	public BronzeBlock(String name)
+	public SkyridgeEmeraldBlock(String name)
 	{
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(6);
-		setResistance(6);
-		setHarvestLevel("pickaxe", 2);
+		setHardness(40);
+		setResistance(40);
+		setLightLevel(1);
+		setHarvestLevel("pickaxe", 9);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);
