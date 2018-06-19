@@ -29,12 +29,13 @@ public class ToolAxe extends ItemTool implements IHasModel
         
         ItemInit.ITEMS.add(this);
     }
-
-    public float getStrVsBlock(ItemStack stack, IBlockState state)
+    
+    public float getDestroySpeed(ItemStack stack, IBlockState state)
     {
         Material material = state.getMaterial();
-        return material != Material.WOOD && material != Material.PLANTS && material != Material.VINE ? super.getStrVsBlock(stack, state) : this.efficiencyOnProperMaterial;
+        return material != Material.WOOD && material != Material.PLANTS && material != Material.VINE ? super.getDestroySpeed(stack, state) : this.efficiency;
     }
+
 
     @Override
 	public void registerModels() 
@@ -42,3 +43,4 @@ public class ToolAxe extends ItemTool implements IHasModel
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }
+

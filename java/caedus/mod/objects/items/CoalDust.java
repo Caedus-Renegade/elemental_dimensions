@@ -1,19 +1,20 @@
-package caedus.mod.objects.tools;
+package caedus.mod.objects.items;
 
 import caedus.mod.Main;
 import caedus.mod.init.ItemInit;
+import caedus.mod.proxy.ClientProxy;
 import caedus.mod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemSword;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
-public class ToolSword  extends ItemSword implements IHasModel
+public class CoalDust extends Item implements IHasModel
 {
-	public ToolSword(String name, ToolMaterial material)
+	public CoalDust (String name) 
 	{
-		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(CreativeTabs.MATERIALS);
 		
 		ItemInit.ITEMS.add(this);
 	}
@@ -22,5 +23,11 @@ public class ToolSword  extends ItemSword implements IHasModel
 	public void registerModels()
 	{
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+	
+	@Override
+	public int getItemBurnTime(ItemStack itemStack)
+	{
+		return 800;
 	}
 }
