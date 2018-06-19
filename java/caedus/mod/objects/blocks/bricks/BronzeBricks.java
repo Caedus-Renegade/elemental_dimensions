@@ -17,9 +17,9 @@ public class BronzeBricks extends Block implements IHasModel
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(3);
-		setResistance(2);
-		setHarvestLevel("pickaxe", 1);
+		setHardness(4.5f);
+		setResistance(4.5f);
+		setHarvestLevel("pickaxe", 2);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

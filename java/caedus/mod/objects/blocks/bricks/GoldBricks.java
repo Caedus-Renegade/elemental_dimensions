@@ -17,8 +17,8 @@ public class GoldBricks extends Block implements IHasModel
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(3);
-		setResistance(3);
+		setHardness(4.5f);
+		setResistance(4.5f);
 		setHarvestLevel("pickaxe", 2);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		

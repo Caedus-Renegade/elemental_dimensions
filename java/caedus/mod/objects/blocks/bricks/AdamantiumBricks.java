@@ -10,16 +10,16 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class SilverBricks extends Block implements IHasModel 
+public class AdamantiumBricks extends Block implements IHasModel 
 {
-	public SilverBricks(String name)
+	public AdamantiumBricks(String name)
 	{
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(1.5f);
-		setResistance(1.5f);
-		setHarvestLevel("pickaxe", 0);
+		setHardness(10.5f);
+		setResistance(10.5f);
+		setHarvestLevel("pickaxe", 6);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

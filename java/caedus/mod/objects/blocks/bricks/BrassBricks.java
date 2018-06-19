@@ -17,9 +17,9 @@ public class BrassBricks extends Block implements IHasModel
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(3);
-		setResistance(2);
-		setHarvestLevel("pickaxe", 1);
+		setHardness(1.5f);
+		setResistance(1.5f);
+		setHarvestLevel("pickaxe", 0);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

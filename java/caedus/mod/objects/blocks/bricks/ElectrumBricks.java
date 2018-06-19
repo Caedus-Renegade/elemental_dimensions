@@ -17,9 +17,9 @@ public class ElectrumBricks extends Block implements IHasModel
 		super(Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHardness(4.5F);
+		setHardness(3);
 		setResistance(3);
-		setHarvestLevel("pickaxe", 2);
+		setHarvestLevel("pickaxe", 1);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		BlockInit.BLOCKS.add(this);

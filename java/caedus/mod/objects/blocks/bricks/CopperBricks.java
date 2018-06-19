@@ -18,7 +18,7 @@ public class CopperBricks extends Block implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setHardness(3);
-		setResistance(2);
+		setResistance(3);
 		setHarvestLevel("pickaxe", 1);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
